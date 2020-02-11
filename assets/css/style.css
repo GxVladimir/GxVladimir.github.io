@@ -25,11 +25,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Intro */
 .intro {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	wighth: 100%;
-	height: 100vh;
 	background: url(../img/intro.jpg) center
 	no-repeat;
 	background-size: cover;
