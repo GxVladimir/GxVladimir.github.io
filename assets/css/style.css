@@ -1,10 +1,8 @@
 body {
 font-family: 'Montserrat', sans-serif;
-
 font-size: 15px;
 color: #333;
 line-height: 1.6;
-
 }
 
 *,
@@ -19,13 +17,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Container*/
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1600px;
 	margin: 0 auto;
 }
 
 /* Intro */
 .intro {
-	position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
@@ -129,7 +126,7 @@ text-transform: uppercase;
 	margin: 0 5px;
 	color: #fff;
 	text-decoration: none;
-	transition: color |.3s linear;
+	transition: color .3s linear;
 	position: relative;
 }
 
@@ -227,4 +224,15 @@ transition: opacity .1s linear;
 
 .slider_num:hover {
 	color: #fce38a;
+}
+
+/* Section */
+.section {
+padding: 80px 0;
+}
+
+.section__header {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 40px;
 }
