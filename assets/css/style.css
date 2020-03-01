@@ -106,9 +106,9 @@ align-items: center;
 }
 
 .header_logo {
-font-size: 40px;
+font-size: 50px;
 font-weight: 700;
-margin: 20px;
+margin: top;
 font-family: 'Kaushan Script', cursive;
 }
 
